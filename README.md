@@ -9,10 +9,11 @@ Veri Hazırlama: Kullanıcıların hizmet alma geçmişini analiz ederek öneri 
 Apriori Algoritması: Sık hizmet kombinasyonlarını bulmak için kullanılan algoritmanın uygulanması.
 Birliktelik Kuralları: Support, Confidence ve Lift metriklerini kullanarak öneri oluşturma.
 Öneri Fonksiyonu: Kullanıcıların aldığı hizmetlere göre yeni hizmet önerileri yapan bir fonksiyon geliştirme.
+
 💻 Proje Kapsamı:
 
 Python programlama dili kullanılarak pandas, mlxtend gibi kütüphanelerle veri işleme ve analiz yapıldı.
 Apriori Algoritması ile sıklık kuralları çıkarıldı ve hizmet öneri sistemi oluşturuldu.
-Kodlara göz atmak ve projeyi incelemek için: [GitHub Repo Linki]
+
 
 Proje ile ilgili geri bildirimlerinizi paylaşmaktan çekinmeyin! 📩
