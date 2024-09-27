@@ -1,38 +1,18 @@
 # ARMUT_ARL_PROJECT
-# Association Rule Learning Öneri Sistemi
-Bu proje, Türkiye’nin en büyük online hizmet platformu olan Armut'un veri setini kullanarak bir öneri sistemi geliştirmek amacıyla Association Rule Learning (İlişkilendirme Kural Öğrenimi) yöntemini uygular. Proje, kullanıcıların daha önce aldığı hizmetlere dayalı olarak yeni hizmet önerilerinde bulunmayı hedefler.
+🚀 Yeni Proje: Association Rule Learning ile Ürün/Hizmet Öneri Sistemi
 
-İçindekiler
-Proje Hakkında
-Teknolojiler
-Kurulum
-Veri Seti
-Kullanım
-Sonuçlar
-Katkıda Bulunanlar
-Lisans
-Proje Hakkında
-Bu projede, Armut'un hizmet alan kullanıcıları ve bu kullanıcıların aldıkları hizmetleri içeren bir veri seti kullanılarak ürün öneri sistemi oluşturulmuştur. Association Rule Learning tekniği kullanılarak, hizmetlerin birlikte satın alınma olasılıkları belirlenmiş ve öneriler geliştirilmiştir.
+Bu repository, Association Rule Learning algoritmasını kullanarak geliştirdiğim bir ürün/hizmet öneri sistemini içeriyor. Türkiye’nin önde gelen online hizmet platformlarından birinin verileri kullanılarak, kullanıcıların geçmiş hizmet alışverişlerine dayanarak yeni hizmet önerileri sunmak amacıyla bu sistem tasarlandı.
 
-Teknolojiler
-Proje, aşağıdaki teknolojileri kullanarak geliştirilmiştir:
+📌 Proje İçeriği:
 
-Python 3.x
-Pandas
-Matplotlib
-Lifetimes
-MLxtend
-Kurulum
-Projenin çalışabilmesi için gerekli kütüphaneleri yüklemek için aşağıdaki komutları terminalde çalıştırın:
-pip install pandas matplotlib lifetimes mlxtend
-Veri Seti
-Veri seti, kullanıcıların aldıkları hizmetlerden ve bu hizmetlerin kategorilerinden oluşmaktadır. Aşağıdaki alanları içermektedir:
+Veri Hazırlama: Kullanıcıların hizmet alma geçmişini analiz ederek öneri sistemine uygun hale getirme.
+Apriori Algoritması: Sık hizmet kombinasyonlarını bulmak için kullanılan algoritmanın uygulanması.
+Birliktelik Kuralları: Support, Confidence ve Lift metriklerini kullanarak öneri oluşturma.
+Öneri Fonksiyonu: Kullanıcıların aldığı hizmetlere göre yeni hizmet önerileri yapan bir fonksiyon geliştirme.
+💻 Proje Kapsamı:
 
-UserId: Müşteri numarası
-ServiceId: Anonimleştirilmiş servis kimlikleri
-CategoryId: Anonimleştirilmiş hizmet kategorileri
-CreateDate: Hizmetin satın alındığı tarih
-Kullanım
-armut_data.csv dosyasını projenizin ana dizinine yerleştirin.
-Sonuçlar
-Bu proje, kullanıcıların geçmişte aldığı hizmetlere dayalı olarak daha uygun ve kişiselleştirilmiş önerilerde bulunmak için etkili bir yöntem sunmaktadır. Association Rule Learning kullanılarak, hizmetlerin birlikte satın alınma olasılıkları belirlenmiş ve bu sayede daha fazla müşteri memnuniyeti sağlanması hedeflenmiştir.
+Python programlama dili kullanılarak pandas, mlxtend gibi kütüphanelerle veri işleme ve analiz yapıldı.
+Apriori Algoritması ile sıklık kuralları çıkarıldı ve hizmet öneri sistemi oluşturuldu.
+Kodlara göz atmak ve projeyi incelemek için: [GitHub Repo Linki]
+
+Proje ile ilgili geri bildirimlerinizi paylaşmaktan çekinmeyin! 📩
